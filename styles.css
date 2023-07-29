@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: #dadbf1;
+    width: 100%;
+    height: 300px;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6px;
+}
+
+nav > ul > li {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+img {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.leftNav {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+}
