@@ -4,7 +4,7 @@ body {
 
 .header {
     background-color: #dadbf1;
-    width: 100%;
+    width: auto;
     height: 300px;
 }
 
@@ -14,25 +14,92 @@ body {
     height: 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 6px;
 }
 
 nav > ul > li {
     color: #fff;
     font-size: 1.1em;
+    margin-top: 12px;
 }
 
-img {
-    background-color: #fff;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-}
-
-.leftNav {
+.navUl {
     list-style: none;
     display: flex;
-    gap: 10px;
-    width: 50%;
+    justify-content: space-between
+}
+
+#submitRequestButton {
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+}
+
+#signInButton {
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4c5fd5;
+}
+
+button {
+    font-size: 14px;
+}
+
+.navButtons {
+    margin-right: 60px;
+}
+
+.bottomHeader {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-top: 40px;
+}
+
+#searchBar {
+    padding: 8px;
+    width: 20rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #000000;
+    padding: 5px 20px;
+}
+
+.search > input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+}
+
+.search > button > img {
+    width: 25px;
+}
+
+.search > button {
+    border: 0;
+    background: transparent;
+}
+
+.bottomHeader > h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
 }
